@@ -13,6 +13,11 @@
     [`src/myvec.cpp`](../src/myvec.cpp)와 [`include/myvec.h`](../include/myvec.h)이다.
 구현을 위해 아래 목록 이외의 멤버함수가 필요하면 자유롭게 정의해도 된다.
 
+### MyVector, ~MyVector
+
+* 기능 <br>
+    생성자(constructor)와 소멸자(desctructor)이다.
+
 ### push_back
 
 * 선언 <br>

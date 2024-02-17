@@ -12,6 +12,8 @@ private:
     unsigned int _size;
     unsigned int capacity; // 과제 2에서만 사용
 public:
+    MyVector();
+    ~MyVector();
     void push_back(int value);
     void pop_back();
     void clear();
