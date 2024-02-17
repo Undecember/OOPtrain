@@ -1,3 +1,3 @@
-add_library(bst_lib STATIC bst_repr.cpp bst_func.cpp)
+add_library(myvec_lib STATIC myvec.cpp)
 
-target_include_directories(bst_lib PUBLIC "${PROJECT_SOURCE_DIR}/include")
+target_include_directories(myvec_lib PUBLIC "${PROJECT_SOURCE_DIR}/include")
