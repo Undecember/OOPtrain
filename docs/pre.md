@@ -2,13 +2,13 @@
 
 ## 1. 리포지토리 클론
 
-```sh
+```bash
 git clone -b main --single-branch https://github.com/Undecember/OOPtrain.git
 ```
 
 ## 2. 브랜치 추가
 
-```sh
+```bash
 git switch -c hw
 ```
 
@@ -16,6 +16,6 @@ git switch -c hw
 
 과제에 업데이트가 있을 때 불러오는 방법입니다.
 
-```sh
+```bash
 ./scripts/update.sh
 ```

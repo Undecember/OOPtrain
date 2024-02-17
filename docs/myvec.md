@@ -71,7 +71,7 @@
 
 ### 채점 방법
 
-```sh
+```bash
 ./scripts/grade-myvec.sh
 ```
 
