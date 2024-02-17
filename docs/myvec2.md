@@ -11,8 +11,7 @@
 `size`는 배열의 크기이고, `capacity`는 실제로 할당받은 메모리 크기이다.
 `size`가 `capacity`보다 큰 값이 요구되는 순간 (eg. `push_back`),
     `std::vector`는 `capacity`를 넉넉하게 두 배로 늘린다.
-또한, `size`가 `capacity`의 절반보다 작아지는 순간,
-    `std::vector`는 `capacity`를 그제서야 반으로 줄인다.
+또한, `size`가 `capacity`보다 작아지더라도 `std::vector`는 `capacity`를 줄이지 않는다.
 이런 방법을 통해 `size`가 자주 변해도 `capacity`,
     즉 실제 메모리 할당량은 느리게 변화시킴으로써 성능을 끌어올린다.
 
